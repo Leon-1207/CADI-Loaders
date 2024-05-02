@@ -4,7 +4,7 @@
     const $bookingMaskWrapper = $('#booking-mask-wrapper')
     // send the request and get the response
     $bookingMaskWrapper.load(
-      'https://dev.d1u2qdrqduf5v6.amplifyapp.com/index.html',
+      'https://dev-clone-jr.d1u2qdrqduf5v6.amplifyapp.com/index.html',
       completeFunction
     )
     // complete function
