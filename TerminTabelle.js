@@ -47,7 +47,6 @@ function receiveMessage (event) {
     return
   }
 
-  if (fn) fn(sourceFrame, msg) // Call the appropriate function
-  else console.log('No function for message:', msg)
+  fn(sourceFrame, msg) // Call the appropriate function
 }
 window.addEventListener('message', receiveMessage, false)
