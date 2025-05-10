@@ -1,3 +1,4 @@
+console.log('TerminTabelle.js started loading')
 function receiveMessage (event) {
   // Handle the message received from the iframe
   if (String(event.data).startsWith('tt-height')) {
@@ -22,3 +23,4 @@ function receiveMessage (event) {
   }
 }
 window.addEventListener('message', receiveMessage, false)
+console.log('TerminTabelle.js finished loading')
