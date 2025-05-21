@@ -12,7 +12,7 @@
         return
       }
       // Set the height of the iframe
-      const height = event.data.split('=')[1]
+      const height = msg.split('=')[1]
       sourceFrame.style.height = `${height}px`
       return
     }
